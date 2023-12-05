@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+   
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <div class="alert alert-dark mt-2 alert-dismissible fade show" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    
+        <strong>class User {
+            name = "";<br>
+            familyName = "";<br>
+            phone = "";<br>
+            gender = "";<br>
+            type = "student";<br>
+            constructor(n, f, p, mi) {
+            this.name = n;<br>
+            this.familyName = f;<br>
+            this.phone = p;<br>
+            this.gender = mi;<br>
+            console.log(this.familyName);<br>
+            }<br>
+            tabe() {
+            document.write(
+            `&lt;p class="info"> my name is &lt;span>${this.name}<br>&lt;/span> and my familyname is &lt;span
+            >${this.familyName}<br>&lt;/span> &lt;/p>`
+            );<br>
+            }<br>
+            }<br>
+    
+            let mojde = new User("mojde", "akbari", "0991", "female");<br>
+    
+           
+            mojde.tabe();<br>
+    
+            class Student extends User {
+            city = "";<br>
+            constructor(ii, ll, ln, ko, ci) {
+            super(ii, ll, ln, ko);<br>
+            this.city = ci;<br>
+            }<br>
+            }<br>
+            const student1 = new Student("arezoo", "davari", "0912000", "Male", "karaj");<br>
+            <br>
+        </strong>
+    </div>
+</body>
+
+</html>

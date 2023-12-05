@@ -1,0 +1,17 @@
+.info {
+  width: 80%;
+  margin: 5px auto 0px auto;
+  background-color: #2b2b2b;
+  color: whitesmoke;
+  padding: 50px;
+  text-align: justify;
+  line-height: 35px;
+  font-size: 20px;
+}
+span {
+  background-color: tan;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: blueviolet;
+}
